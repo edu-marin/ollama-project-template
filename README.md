@@ -1,7 +1,11 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Ollama Project Template
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+Welcome to the **Ollama Project Template**! This repository provides a ready-to-use template for setting up a development environment with GitHub Codespaces or Visual Studio Code Dev Containers. The template includes the installation of Ollama and other essential dependencies to kickstart your Python effortlessly.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Overview
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+This project is designed to streamline the setup process by using a `devcontainer.json` configuration file. The setup includes the following key components:
+
+- **GitHub Dev Container**: Automatically configure a development environment with the necessary tools and dependencies.
+- **Ollama Installation**: Using a custom script, the environment installs Ollama, starts its server, and prepares it for immediate use.
+- **Dependency Management**: Python dependencies are handled via `pip` using the `requirements.txt` file.
