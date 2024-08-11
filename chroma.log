@@ -1,0 +1,65 @@
+[33mWARNING[0m:  [11-08-2024 19:51:56] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [11-08-2024 19:51:56] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [11-08-2024 19:51:56] Starting component System
+[36mDEBUG[0m:    [11-08-2024 19:51:56] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [11-08-2024 19:51:56] Starting component SqliteDB
+[36mDEBUG[0m:    [11-08-2024 19:51:58] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [11-08-2024 19:51:58] Starting component Posthog
+[36mDEBUG[0m:    [11-08-2024 19:51:58] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [11-08-2024 19:51:58] Starting component SegmentAPI
+[32mINFO[0m:     [11-08-2024 19:51:58] Started server process [[36m4990[0m]
+[32mINFO[0m:     [11-08-2024 19:51:58] Waiting for application startup.
+[32mINFO[0m:     [11-08-2024 19:51:58] Application startup complete.
+[32mINFO[0m:     [11-08-2024 19:51:58] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [11-08-2024 19:55:57] ::1:58224 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:55:57] ::1:58224 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:55:57] ::1:58230 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:55:57] ::1:58230 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:55:57] ::1:58230 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:16] ::1:60518 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:16] ::1:60518 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:19] ::1:60532 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:30] ::1:52240 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:30] ::1:52240 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 19:57:34] ::1:52240 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:58] ::1:60084 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:58] ::1:60084 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:58] ::1:60096 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:58] ::1:60096 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:58] ::1:60096 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:00:59] ::1:60096 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:11] ::1:58358 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:11] ::1:58358 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:11] ::1:58374 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:11] ::1:58374 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:12] ::1:58374 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:17:12] ::1:58374 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:49] ::1:56294 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:49] ::1:56294 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:49] ::1:56306 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:49] ::1:56306 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:50] ::1:56306 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:27:50] ::1:56306 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55788 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55788 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55802 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55802 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55802 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:43:16] ::1:55802 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36374 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36374 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36382 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36382 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36382 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:46:00] ::1:36382 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55316 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55316 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55318 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55318 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55318 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:47:43] ::1:55318 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:48:26] ::1:56116 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:48:26] ::1:56116 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:48:26] ::1:56128 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:48:27] ::1:56128 - "DELETE /api/v1/collections/buildragwithpython?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [11-08-2024 20:48:27] ::1:56128 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200

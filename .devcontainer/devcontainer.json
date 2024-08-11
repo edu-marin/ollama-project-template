@@ -1,11 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.10",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "./setup.sh",
+  "postCreateCommand": "curl -fsSL https://ollama.com/install.sh | sh & sudo apt-get update && sudo apt-get install libmagic1",
   "customizations": {
     "codespaces": {
       "openFiles": []
